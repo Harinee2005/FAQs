@@ -1,0 +1,52 @@
+.list-item {
+  list-style-type: none;
+  border: #e4e7eb 1px solid;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.list-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.qn-ans-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #52606d;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+}
+
+hr {
+  color: #f1f5f8;
+}
+
+.ans {
+  color: #9aa5b1;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .qn-ans-text {
+    font-size: 20px;
+  }
+  .icon {
+    height: 28px;
+    width: 28px;
+  }
+}
